@@ -1,4 +1,4 @@
 # Zelenskiy-nft
 Zelenskiy-nft
 
-ain URL: https://zelenskiynftcollection.com/
+Main URL: https://zelenskiynftcollection.com/
