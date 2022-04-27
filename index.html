@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+   <meta charset="UTF-8">
+   <!-- Style -->
+   <link rel="preload" href="assets/fonts/e-UkraineHead-Light.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="assets/fonts/e-UkraineHead-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="assets/fonts/e-UkraineHead-Medium.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="assets/fonts/e-UkraineHead-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="stylesheet" href="assets/css/style.min.css">
+   <!-- Useful meta tags -->
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="robots" content="index, follow">
+   <meta name="google" content="notranslate">
+   <meta name="format-detection" content="telephone=no">
+   <meta name="description" content="Charity NFT project to support Ukraine">
+   <meta name="keywords" content="NFT, Ukraine, Zelenskiy, crypto, support"/>
+   <!-- Fav -->
+   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+   <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+   <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+   <!-- OG-marks -->
+   <meta property="og:title" content="Zelenskiy Ukraine NFT collection"/>
+   <meta property="og:type" content="article"/>
+   <meta property="og:url" content="https://maximqu.github.io/Zelenskiy-nft"/>
+   <meta property="og:site_name" content="Zelenskiy Ukraine NFT collection"/>
+   <meta property="og:image" content="https://maximqu.github.io/Zelenskiy-nft/assets/images/hero-img/hero.webp"/>
+   <meta property="og:image:alt" content="Zelenskiy Ukraine NFT collection">
+   <meta property="og:description" content="Charity NFT project to support Ukraine"/>
+   <!-- Title -->
+   <title>Zelenskiy Ukraine NFT collection</title>
+</head>
+<body>
+   <svg style="display: none;">
+      <symbol id="instagram" viewBox="0 0 17 17">
+         <path d="M11.4961 1.08594H5.50391C3.2322 1.08594 1.39062 2.92752 1.39062 5.19922V11.8047C1.39062 14.0764 3.2322 15.918 5.50391 15.918H11.4961C13.7678 15.918 15.6094 14.0764 15.6094 11.8047V5.19922C15.6094 2.92752 13.7678 1.08594 11.4961 1.08594Z" stroke="#FFE000" stroke-linecap="round"/>
+         <path d="M8.5 12.125C10.502 12.125 12.125 10.502 12.125 8.5C12.125 6.49797 10.502 4.875 8.5 4.875C6.49797 4.875 4.875 6.49797 4.875 8.5C4.875 10.502 6.49797 12.125 8.5 12.125Z" stroke="#FFE000" stroke-linecap="round"/>
+         <path d="M12.8398 4.22656C13.1246 4.22656 13.3555 3.99571 13.3555 3.71094C13.3555 3.42617 13.1246 3.19531 12.8398 3.19531C12.5551 3.19531 12.3242 3.42617 12.3242 3.71094C12.3242 3.99571 12.5551 4.22656 12.8398 4.22656Z" stroke="#FFE000"/>
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 20 18">
+         <path d="M19.1975 1.37802C19.1975 1.33896 19.1623 1.31552 19.1311 1.34287C18.5178 1.87412 17.0373 2.3038 16.8498 2.32334C16.8443 2.32581 16.8383 2.3271 16.8322 2.3271C16.8262 2.3271 16.8202 2.32581 16.8147 2.32334C15.7287 0.58896 13.2248 1.05771 13.2248 1.05771C9.54513 1.83896 9.95138 5.55771 10.0217 5.94834C10.0217 5.96787 10.0217 5.98349 9.98653 5.98349C5.89278 6.18662 2.31857 2.38193 1.91232 1.93271C1.90828 1.9278 1.90322 1.92385 1.89748 1.92114C1.89173 1.91842 1.88546 1.91702 1.87911 1.91702C1.87276 1.91702 1.86649 1.91842 1.86075 1.92114C1.85501 1.92385 1.84994 1.9278 1.84591 1.93271C1.38651 2.78437 1.24083 3.77034 1.43431 4.71847C1.62779 5.66659 2.14814 6.51664 2.9045 7.12021C2.91099 7.124 2.91637 7.12941 2.9201 7.13592C2.92384 7.14244 2.92581 7.14981 2.92581 7.15732C2.92581 7.16483 2.92384 7.17221 2.9201 7.17872C2.91637 7.18523 2.91099 7.19065 2.9045 7.19443C2.37101 7.17775 1.84357 7.07622 1.342 6.89365C1.31857 6.89365 1.29122 6.89365 1.29122 6.93271C1.34591 9.35459 3.72091 10.4483 4.27169 10.6788C4.27951 10.6814 4.28631 10.6863 4.29113 10.693C4.29596 10.6997 4.29856 10.7077 4.29856 10.7159C4.29856 10.7241 4.29596 10.7322 4.29113 10.7388C4.28631 10.7455 4.27951 10.7505 4.27169 10.753C3.7781 10.8606 3.27155 10.8961 2.76778 10.8585C2.76101 10.8582 2.75426 10.8596 2.7481 10.8624C2.74195 10.8653 2.73655 10.8695 2.73236 10.8749C2.72817 10.8802 2.7253 10.8865 2.72399 10.8931C2.72268 10.8998 2.72296 10.9067 2.72482 10.9132C3.22091 12.7804 5.6545 13.5616 6.092 13.6905C6.09933 13.6921 6.10612 13.6955 6.11171 13.7005C6.1173 13.7055 6.12148 13.7119 6.12385 13.719C6.12622 13.7261 6.12669 13.7337 6.12522 13.741C6.12374 13.7484 6.12037 13.7552 6.11544 13.7608C4.61153 15.1046 1.64669 15.4601 1.03732 15.5226C1.02922 15.5236 1.02159 15.527 1.01534 15.5322C1.00908 15.5375 1.00445 15.5444 1.00199 15.5522C0.999535 15.56 0.999346 15.5683 1.00145 15.5762C1.00356 15.5841 1.00787 15.5912 1.01388 15.5968C3.28732 17.1593 9.24044 18.4562 13.7873 14.5694C15.1315 13.3979 16.1937 11.9378 16.8944 10.2982C17.5952 8.65861 17.9164 6.88186 17.8342 5.10068C17.8342 5.09417 17.8361 5.08781 17.8395 5.08229C17.843 5.07677 17.8479 5.07232 17.8537 5.06943C18.6703 4.58983 19.3507 3.90944 19.8303 3.09287C19.8303 3.0538 19.8303 3.03037 19.7717 3.04209C19.3762 3.18102 18.9493 3.20406 18.5412 3.10849C18.5412 3.10849 19.2092 1.95224 19.1975 1.37802Z" stroke="#FFE000" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="telegram" viewBox="0 0 17 17">
+         <path d="M7.17438 11.2012L6.91448 15.5862C7.05433 15.5872 7.19251 15.5498 7.31835 15.4766C7.4442 15.4035 7.55435 15.2967 7.64029 15.1644L9.3835 13.1657L13.003 16.3386C13.6623 16.7831 14.1282 16.5514 14.3089 15.609L16.6828 2.26398C16.892 1.08983 16.3405 0.618654 15.6812 0.915041L1.73557 7.31776C0.772054 7.77374 0.79424 8.41211 1.57393 8.7047L5.14275 10.0346L13.171 4.41469C13.5609 4.0993 13.919 4.27409 13.6274 4.58188L7.17438 11.2012Z" stroke="#FFE000" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="discord" viewBox="0 0 23 17">
+         <path d="M18.2292 12.6524C16.2292 13.7497 14.2937 14.847 11.5 14.847C8.70625 14.847 6.77083 13.7497 4.77083 12.6524M8.16146 14.2788C7.68925 15.025 7.18343 15.7456 6.64583 16.4379C2.80208 16.3194 1.34375 13.6171 1.34375 13.6171C1.39838 9.78822 2.25499 6.02277 3.84896 2.60477C5.25009 1.41747 6.95736 0.731384 8.73437 0.641506L9.25521 1.94471C9.99909 1.83284 10.749 1.77442 11.5 1.76982C12.2544 1.77251 13.0077 1.82904 13.7552 1.93906L14.276 0.635864C16.0548 0.730609 17.7622 1.42268 19.1615 2.61605C20.7503 6.03157 21.6033 9.79292 21.6562 13.6171C21.6562 13.6171 20.1979 16.3194 16.3542 16.4379C15.8247 15.7489 15.3275 15.0315 14.8646 14.2884L8.16146 14.2788Z" stroke="#FFE000" stroke-linecap="round" stroke-linejoin="round"/>
+         <path d="M8.29533 11.6877C9.25895 11.6877 10.0401 10.8415 10.0401 9.79776C10.0401 8.75398 9.25895 7.90784 8.29533 7.90784C7.33171 7.90784 6.55054 8.75398 6.55054 9.79776C6.55054 10.8415 7.33171 11.6877 8.29533 11.6877Z" stroke="#FFE000" stroke-linecap="round" stroke-linejoin="round"/>
+         <path d="M14.7048 11.6877C15.6684 11.6877 16.4495 10.8415 16.4495 9.79776C16.4495 8.75398 15.6684 7.90784 14.7048 7.90784C13.7411 7.90784 12.96 8.75398 12.96 9.79776C12.96 10.8415 13.7411 11.6877 14.7048 11.6877Z" stroke="#FFE000" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+      <symbol id="discord-logo" viewBox="0 0 51 37">
+         <path d="M42.8186 3.0671C39.5948 1.64747 36.1377 0.601554 32.5231 0.0025129C32.4573 -0.0090484 32.3915 0.0198439 32.3576 0.0776299C31.913 0.83654 31.4205 1.8266 31.0756 2.60478C27.1879 2.0462 23.3201 2.0462 19.5121 2.60478C19.1672 1.8093 18.6568 0.83654 18.2102 0.0776299C18.1763 0.0217719 18.1105 -0.00712038 18.0447 0.0025129C14.4321 0.599639 10.9751 1.64556 7.74923 3.0671C7.7213 3.07865 7.69736 3.09793 7.68148 3.12296C1.12414 12.5247 -0.672195 21.6954 0.209024 30.7524C0.213012 30.7967 0.23893 30.8391 0.274817 30.866C4.60116 33.9152 8.79197 35.7663 12.905 36.9933C12.9708 37.0125 13.0405 36.9894 13.0824 36.9374C14.0553 35.6623 14.9226 34.3178 15.6662 32.9039C15.7101 32.8211 15.6682 32.7229 15.5785 32.6901C14.2029 32.1893 12.893 31.5787 11.633 30.8853C11.5333 30.8295 11.5253 30.6927 11.617 30.6272C11.8822 30.4365 12.1474 30.2381 12.4006 30.0377C12.4464 30.0012 12.5102 29.9934 12.5641 30.0166C20.8419 33.6436 29.8036 33.6436 37.9838 30.0166C38.0377 29.9915 38.1015 29.9993 38.1493 30.0358C38.4025 30.2362 38.6677 30.4365 38.9349 30.6272C39.0265 30.6927 39.0206 30.8295 38.9209 30.8853C37.6609 31.5922 36.351 32.1893 34.9733 32.6882C34.8836 32.721 34.8437 32.8211 34.8876 32.9039C35.6472 34.3158 36.5145 35.6603 37.4694 36.9355C37.5093 36.9894 37.5811 37.0125 37.6469 36.9933C41.7798 35.7663 45.9706 33.9152 50.297 30.866C50.3349 30.8391 50.3588 30.7986 50.3628 30.7543C51.4174 20.2835 48.5963 11.188 42.8843 3.12487C42.8704 3.09793 42.8465 3.07865 42.8186 3.0671ZM16.9024 25.2376C14.4102 25.2376 12.3567 23.0418 12.3567 20.3451C12.3567 17.6484 14.3704 15.4526 16.9024 15.4526C19.4543 15.4526 21.4879 17.6677 21.448 20.3451C21.448 23.0418 19.4343 25.2376 16.9024 25.2376ZM33.7093 25.2376C31.2172 25.2376 29.1637 23.0418 29.1637 20.3451C29.1637 17.6484 31.1773 15.4526 33.7093 15.4526C36.2613 15.4526 38.2948 17.6677 38.255 20.3451C38.255 23.0418 36.2613 25.2376 33.7093 25.2376Z"/>
+      </symbol>
+   </svg>
+   <header class="header">
+      <div class="container--max">
+         <div class="header__inner">
+            <a href="index.html" class="logo">
+               <img src="assets/images/logo/logo.svg" class="header__img" alt="Zelenskiy Ukraine NFT Collection">
+            </a>
+            <div class="header__wrapp">
+               <a href="https://discord.gg/cxPrXk65" class="header__link discord" rel="noopener noindex noreferrer" target="_blanck" title="Discord">
+                  <svg>
+                     <use xlink:href="#discord-logo"></use>
+                  </svg>
+                  <span>JOIN DISCORD</span>
+               </a>
+               <div class="burger-menu">
+                  <div class="burger">
+                     <span></span>
+                  </div>
+                  <nav class="nav">
+                     <ul class="nav__list">
+                        <li class="nav__item">
+                           <span>01</span>
+                           <a href="#hero" class="nav__link">Main</a>
+                        </li>
+                        <li class="nav__item">
+                           <span>02</span>
+                           <a href="#steps" class="nav__link">How to buy an NFT</a>
+                        </li>
+                        <li class="nav__item">
+                           <span>03</span>
+                           <a href="#info" class="nav__link">Info</a>
+                        </li>
+                        <li class="nav__item">
+                           <span>04</span>
+                           <a href="#goal" class="nav__link">The goal of our project</a>
+                        </li>
+                        <li class="nav__item">
+                           <span>05</span>
+                           <a href="#slider" class="nav__link">List of tokens</a>
+                        </li>
+                        <li class="nav__item">
+                           <span>06</span>
+                           <a href="#team" class="nav__link">Our team</a>
+                        </li>
+                        <li class="nav__item">
+                           <span>07</span>
+                           <a href="#faq" class="nav__link">FAQ</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main class="main">
+      <!-- hero -->
+      <section class="hero animate__animated animate__fadeInDown" id="hero">
+         <div class="container">
+            <div class="hero__wrapp">
+               <div class="hero__inner">
+                  <h1 class="hero__title">
+                     Zelenskiy
+                     <span>Ukraine NFT</span>
+                     Collection
+                  </h1>
+                  <p class="hero__text">Charitable project to help Ukraine</p>
+                  <div class="hero__social">
+                     <span>Follow us:</span>
+                     <ul class="hero__list">
+                        <li class="hero__item">
+                           <a href="https://instagram.com/ua.spirit_nft?igshid=YmMyMTA2M2Y=" class="hero__link" rel="nofolow noindex noreferrer" target="_blanck" title="Instagram">
+                              <svg>
+                                 <use xlink:href="#instagram"></use>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="hero__item">
+                           <a href="https://twitter.com/ua_spirit_nft?s=21&t=s83B04x_KzMirvC4NESXrA" class="hero__link" rel="nofolow noindex noreferrer" target="_blanck" title="Twitter">
+                              <svg>
+                                 <use xlink:href="#twitter"></use>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="hero__item">
+                           <a href="https://t.me/to4Ukraine" class="hero__link" rel="nofolow noindex noreferrer" target="_blanck" title="Telegram">
+                              <svg>
+                                 <use xlink:href="#telegram"></use>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="hero__item">
+                           <a href="https://discord.gg/cxPrXk65" class="hero__link" rel="nofolow noindex noreferrer" target="_blanck" title="Discord">
+                              <svg>
+                                 <use xlink:href="#discord"></use>
+                              </svg>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <a href="#" class="hero__btn btn">Buy Now</a>
+               </div>
+               <picture class="hero__img">
+                  <source srcset="assets/images/hero-img/hero-img.webp" type="image/webp">
+                  <img src="assets/images/hero-img/hero-img.png"
+                  srcset="assets/images/hero-img/hero-img.png" alt="Charitable project to help Ukraine">
+               </picture>
+            </div>
+         </div>
+      </section>
+      <!-- ./hero -->
+      <!-- steps -->
+      <section class="steps " id="steps">
+         <h2 class="steps__title">How to buy an NFT token and help Ukraine?</h2>
+         <div class="container">
+            <div class="steps__inner">
+               <ul class="steps__list">
+                  <li class="steps__item">
+                     <h3 class="steps__name">
+                        <span>01.</span>
+                        Click on the "Buy Now"
+                     </h3>
+                     <p class="steps__text">
+                        It takes you to the OpenSea platform. There you can get acquainted with all the works of the collection and buy NFT tokens
+                     </p>
+                  </li>
+                  <li class="steps__item">
+                     <h3 class="steps__name">
+                        <span>02.</span>
+                        Select NFT
+                     </h3>
+                     <p class="steps__text">
+                        Each NFT token is tied to a specific area of ​​charity (Army, humanitarian aid, etc.)
+                     </p>
+                     <p class="steps__text">
+                        Choose in which area you would like to help and buy this NFT token!
+                     </p>
+                  </li>
+                  <li class="steps__item">
+                     <h3 class="steps__name">
+                        <span>03.</span>
+                        Buy NFT and confirm the transaction
+                     </h3>
+                     <p class="steps__text">
+                        You're almost done! It is important to go through all the stages of payment and confirm the transaction through OpenSea
+                     </p>
+                  </li>
+                  <li class="steps__item">
+                     <h3 class="steps__name">
+                        <span>04.</span>
+                        Congratulations! You are the owner of a NFT token
+                     </h3>
+                     <p class="steps__text">
+                        Just a little more! It is important to go through all the stages of payment and confirm the transaction through OpenSea
+                     </p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!-- ./steps -->
+      <!-- info -->
+      <section class="info" id="info">
+         <div class="info__bg"></div>
+         <div class="container">
+            <h2 class="info__title hide">Info</h2>
+            <ul class="info__list">
+               <li class="info__item">
+                  Every purchase of NFT is a bulletproof vest for a Ukrainian soldier. These are additional products for all soldiers and civilians.
+               </li>
+               <li class="info__item">
+                  Every time you buy one copy of the image from the "Zelenskiy Ukraine NFT Collection" you literally give a chance to save a person and maybe a few dozen people.
+               </li>
+               <li class="info__item">
+                  Your decision to buy NFT could affect the lives of thousands of people who did not choose this war, but faced these circumstances and are forced to fight.
+               </li>
+               <li class="info__item">
+                  Proceeds from your NFT token purchase will be donated to charity within 48 hours of receiving the project wallet.
+               </li>
+            </ul>
+            <a href="#" class="info__btn btn">Buy Now</a>
+         </div>
+      </section>
+      <!-- ./info -->
+      <!-- goal -->
+      <section class="goal" id="goal">
+         <div class="container">
+            <div class="goal__inner">
+               <div class="goal__content">
+                  <h2 class="goal__title">The goal of our project</h2>
+                  <p class="goal__text">
+                     is to spread the key facts about Russia's invasion of Ukraine around the world through the NFT collection. Almost all the funds received will be donated to charity
+                  </p>
+                  <p class="goal__text text-content">
+                     This will not only help the Ukrainian army, which can save thousands of lives, but also bring the truth to the people. The truth and values for which Ukrainians have to die every day today
+                  </p>
+                  <a href="white-paper.html" class="goal__btn btn">
+                     Read more
+                  </a>
+               </div>
+               <div class="goal__wrapp">
+                  <p class="goal__heading">The Zelenskiy Ukraine NFT Collection
+                     project was created during the war in Ukraine.
+                  </p>
+                  <ul class="goal__list">
+                     <li class="goal__item">
+                        <span class="goal__num">55 <span>%</span></span>
+                        <p class="goal__text">of Ukrainians lost their jobs</p>
+                     </li>
+                     <li class="goal__item">
+                        <span class="goal__num">90 <span>%</span></span>
+                        <p class="goal__text">of buildings in the city of Mariupol came under fire</p>
+                     </li>
+                     <li class="goal__item">
+                        <span class="goal__num">3.5<span>+</span></span>
+                        <p class="goal__text">million people have left the territory of Ukraine</p>
+                     </li>
+                     <li class="goal__item">
+                        <span class="goal__num">140 <span>+</span></span>
+                        <p class="goal__text">countries are on the side of Ukraine</p>
+                     </li>
+                     <li class="goal__item">
+                        <span class="goal__num">6.5<span>+</span></span>
+                        <p class="goal__text">million Ukrainians became internal refugees</p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ./goal -->
+      <!-- slider -->
+      <section class="slider" id="slider">
+         <h2 class="hide slider__title">Token By Ukrainian Spirit</h2>
+         <div class="swiper">
+            <ul class="slider__list swiper-wrapper">
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #1<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #2<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #3<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #4<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #5<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #6<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #7<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #8<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #9<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+               <li class="slider__item swiper-slide">
+                  <img src="assets/images/nft/nft.webp" alt="NFT" class="slider__img">
+                  <div class="slider__info">
+                     <p class="slider__text">Zelenskiy Nft collection #10<span>By Ukrainian Spirit</span></p>
+                  </div>
+                  <a href="#" class="slider__btn btn">Coming soon</a>
+               </li>
+            </ul>
+         </div>
+         <div class="container">
+            <div class="slider__btns">
+               <a href="#" class="slider__link btn">OpenSea</a>
+               <a href="#" class="slider__link btn">Background NFT’S</a>
+            </div>
+         </div>
+      </section>
+      <!-- ./slider -->
+      <!-- team -->
+      <section class="team" id="team">
+         <div class="container">
+            <h2 class="team__title">OUR TEAM</h2>
+            <div class="team__inner">
+               <ul class="team__list">
+                  <li class="team__item">
+                     <a href="#" class="team__link" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <img src="assets/images/avatar-img/avatar-1.webp" alt="Team photo" class="team__avatar">
+                        <span class="team__name">Sergei</span>
+                        <span class="team__position">Co-founder / Comunity manager</span>
+                     </a>
+                  </li>
+                  <li class="team__item">
+                     <a href="#" class="team__link" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <img src="assets/images/avatar-img/avatar-2.webp" alt="Team photo" class="team__avatar">
+                        <span class="team__name">Dmitriy</span>
+                        <span class="team__position">Co-founder / Marketing, strategy</span>
+                     </a>
+                  </li>
+                  <li class="team__item">
+                     <a href="#" class="team__link" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <img src="assets/images/avatar-img/avatar-3.webp" alt="Team photo" class="team__avatar">
+                        <span class="team__name">Ilya</span>
+                        <span class="team__position">Co-founder / Systematization of processes</span>
+                     </a>
+                  </li>
+                  <li class="team__item">
+                     <a href="#" class="team__link" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <img src="assets/images/avatar-img/avatar-4.webp" alt="Team photo" class="team__avatar">
+                        <span class="team__name">Julia </span>
+                        <span class="team__position">Social Media Marketing</span>
+                     </a>
+                  </li>
+                  <li class="team__item">
+                     <a href="#" class="team__link" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <img src="assets/images/avatar-img/avatar-5.webp" alt="Team photo" class="team__avatar">
+                        <span class="team__name">Ilya</span>
+                        <span class="team__position">Web designer</span>
+                     </a>
+                  </li>
+                  <li class="team__item">
+                     <a href="#" class="team__link" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <img src="assets/images/avatar-img/avatar-6.webp" alt="Team photo" class="team__avatar">
+                        <span class="team__name">Olga</span>
+                        <span class="team__position">Artist / Illustrator</span>
+                     </a>
+                  </li>
+                  <li class="team__item">
+                     <a href="#" class="team__link" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <img src="assets/images/avatar-img/avatar-7.webp" alt="Team photo" class="team__avatar">
+                        <span class="team__name">Kateryna</span>
+                        <span class="team__position">Social media designer</span>
+                     </a>
+                  </li>
+                  <li class="team__item">
+                     <a href="#" class="team__link" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <img src="assets/images/avatar-img/avatar-8.webp" alt="Team photo" class="team__avatar">
+                        <span class="team__name">Maksim</span>
+                        <span class="team__position">Frontend developer</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!-- ./team -->
+      <!-- faq -->
+      <section class="faq" id="faq">
+         <div class="container">
+            <div class="faq__inner">
+               <h2 class="faq__title">FAQ</h2>
+               <ul class="faq__list">
+                  <li class="faq__item">
+                     <span class="faq__num">01</span>
+                     <p class="faq__quest">How many tokens will be issued in the "Zelenskiy Ukraine NFT Collection"?</p>
+                     <p class="faq__answ">Up to 250 NFT tokens will be placed in the starting collection</p>
+                  </li>
+                  <li class="faq__item">
+                     <span class="faq__num">02</span>
+                     <p class="faq__quest">What blockchain is the project hosted on?</p>
+                     <p class="faq__answ">These are ERC-721 tokens hosted on the Ethereum blockchain.</p>
+                  </li>
+                  <li class="faq__item">
+                     <span class="faq__num">03</span>
+                     <p class="faq__quest">How can I be sure that you will transfer funds to charity?</p>
+                     <p class="faq__answ">You can see the reports of all transactions on our <a href="#" target="_blank" rel="noopener noreferrer noindex" title="Discord"> Discord</a> server. For more information see WhitePaper </p>
+                  </li>
+                  <li class="faq__item">
+                     <span class="faq__num">04</span>
+                     <p class="faq__quest">Where can I ask more questions?</p>
+                     <p class="faq__answ">You can ask any questions on our <a href="#" target="_blank" rel="noopener noreferrer noindex" title="Discord"> Discord</a> server</p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!-- ./faq -->
+   </main>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__wrapp">
+            <div class="footer__inner">
+               <h2 class="footer__title">
+                  Zelenskiy
+                  <span>Ukraine NFT</span>
+                  Collection
+               </h2>
+               <div class="footer__block social">
+                  <span class="social__text">Follow us:</span>
+                  <ul class="social__list">
+                     <li class="social__item">
+                        <a href="https://instagram.com/ua.spirit_nft?igshid=YmMyMTA2M2Y=" class="social__link" rel="nofolow noindex noreferrer" target="_blanck" title="Instagram">
+                           <svg>
+                              <use xlink:href="#instagram"></use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="social__item">
+                        <a href="https://twitter.com/ua_spirit_nft?s=21&t=s83B04x_KzMirvC4NESXrA" class="social__link" rel="nofolow noindex noreferrer" target="_blanck" title="Twitter">
+                           <svg>
+                              <use xlink:href="#twitter"></use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="social__item">
+                        <a href="https://t.me/to4Ukraine" class="social__link" rel="nofolow noindex noreferrer" target="_blanck" title="Telegram">
+                           <svg>
+                              <use xlink:href="#telegram"></use>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="social__item">
+                        <a href="https://discord.gg/cxPrXk65" class="social__link" rel="nofolow noindex noreferrer" target="_blanck" title="Discord">
+                           <svg>
+                              <use xlink:href="#discord"></use>
+                           </svg>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <a href="https://discord.gg/cxPrXk65" class="footer__link discord" rel="noopener noindex noreferrer" target="_blanck" title="Discord">
+               <svg>
+                  <use xlink:href="#discord-logo"></use>
+               </svg>
+               <span>JOIN DISCORD</span>
+            </a>
+         </div>
+      </div>
+   </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
+   <script src="assets/js/app.js" defer></script>
+</body>
+</html>
